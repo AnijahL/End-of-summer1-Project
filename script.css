@@ -1,4 +1,5 @@
 nav{
+    display: flex; 
     text-align: center;
     background-color: #054087;
     padding: 10px 20px;
@@ -10,6 +11,7 @@ nav{
     z-index: 800;
 
 }
+/* #054087 */
 
 nav ul{
     padding: 5px;
@@ -32,23 +34,46 @@ nav a:hover{
     border: 3px solid black;
 }
 
-nav li{
-    list-style: none;
-    font-size: larger;
+
+.main-nav{
+    width: 100%; 
+    display: flex; 
+    align-items: center ;  
+    justify-content: center;
 }
 
 #side-bar{
-    display: flex;
     flex-direction: column;
-    align-items: flex-end;
-    width: 100%;
-
+    width: fit-content;
+    display: flex; 
+    justify-content: center;
 }
 
 body{
-    background-color: #040404;
+    background-color: #efe2e2;
 }
+
+.logo-container{
+    border: 1px solid black; 
+    width: 100%; 
+    text-align: center;
+}
+
 
 #logo {
     border-radius: 50px;
+    width: 1000px;
+    height: 1000px;
+    /* left: 50%;
+    position: absolute;
+    transform: translate(-50%); */
+    font-size: 50px;
+}
+
+#logo-nav{
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
 }
