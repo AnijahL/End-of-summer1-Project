@@ -82,3 +82,29 @@ body{
     position: absolute;
     transform: translate(-50%, -50%);
 }
+
+#settings-nav{
+    background-color: #f4f3f3;
+    width: 230px;
+    height: 600px;
+    font-size: 35px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 1000px;
+}
+
+.settings-info{
+    width: 1300px;
+    height: 1200px; 
+    background-color: #054087;
+    border: 1px solid black;
+}
+
+#settings-container{
+    display: flex;
+    align-items: center; 
+    gap: 100px;   
+    align-items: center;    
+}
