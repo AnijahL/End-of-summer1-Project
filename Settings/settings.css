@@ -127,3 +127,40 @@ body{
     align-items: center;   
      
 }
+
+/* #create-acc{
+    width: 500px; 
+    height: 70px;
+    padding: 0; 
+}
+
+#create-acc::after {
+    content: attr(data-hover);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    transform: translateY(-35px);
+    transition: transform 0.3s ease;
+}
+
+#create-acc:hover::after {
+    opacity: 1;
+}
+
+#create-acc span {
+    display: inline-block;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+#create-acc:hover span {
+    opacity: 0;
+    transform: translateY(-20px);
+    
+} */
