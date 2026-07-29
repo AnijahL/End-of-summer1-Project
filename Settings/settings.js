@@ -31,4 +31,3 @@ function handleSettings(title){
      settingsTitle.textContent = title; 
 
 }
-
