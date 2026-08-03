@@ -63,7 +63,7 @@ body{
 }
 
 
-#title{
+#title-main{
     text-align: center;
     padding-top: 40px 0px;
     font-size: 180px;  
@@ -113,14 +113,6 @@ body{
     font-size: 35px;
 }
 
-#Account-info{
-    width: 1100px;
-    height: 1200px; 
-    background-color: #054087;
-    border-radius: 60px;
-    margin-top: -770px;
-}
-
 #settings-container{
     display: flex;
     gap: 100px;   
@@ -164,3 +156,398 @@ body{
     transform: translateY(-20px);
     
 } */
+
+#title{
+    text-align: center;
+    font-size: 180px;  
+    width: 100%;
+    color: #f4f3f3;
+}
+
+ 
+#settings-info{
+    width: 1400px;
+    height: 1700px; 
+    background-color: #054087;
+    border-radius: 60px;
+    margin-top: -330px;
+}
+
+/* #acc-holder{
+    left: 16%;
+    position: relative;
+    transform: translate(-50%,);
+}
+
+#account-details{
+    width: 900px;
+    height: 100px;
+    background-color: #f8f4f4;
+    border-radius: 30px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    font-weight: bolder;
+    font-size: 45px;
+}
+
+#acc-input{
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 10px;
+} */
+
+
+/* #personalization-details{
+    width: 900px;
+    height: 100px;
+    background-color: #f8f4f4;
+    border-radius: 30px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    font-weight: bolder;
+    font-size: 45px;
+}
+#per-holder{
+    left: 16%;
+    position: relative;
+    transform: translate(-50%,);
+}
+
+#per-input{
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+#per-option{
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 2px;
+    font-size: 30px;
+} */
+
+/* #general-holder{
+    left: 16%;
+    position: relative;
+    transform: translate(-50%,);
+}
+
+#gen-option{
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 2px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#general-details{
+    width: 900px;
+    height: 100px;
+    background-color: #f8f4f4;
+    border-radius: 30px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    font-weight: bolder;
+    font-size: 45px;
+} */
+
+
+
+/* #notifications-details{
+    width: 900px;
+    height: 100px;
+    background-color: #f8f4f4;
+    border-radius: 30px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    font-weight: bolder;
+    font-size: 45px;
+    
+}
+
+#notif-holder{
+    left: 16%;
+    position: relative;
+    transform: translate(-50%,);
+}
+
+#notif-input{
+    width: 40px;
+    height: 40px;
+} */
+
+
+
+
+
+/* #appearance-holder{
+    left: 16%;
+    position: relative;
+    transform: translate(-50%,);
+
+}
+
+#appearance-details{
+    width: 900px;
+    height: 100px;
+    background-color: #f8f4f4;
+    border-radius: 30px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    font-weight: bolder;
+    font-size: 45px;
+}
+
+#app-option{
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 2px;
+    text-align: center;
+    font-size: 30px;
+} */
+
+
+
+
+
+/* #display-holder{
+    left: 16%;
+    position: relative;
+    transform: translate(-50%,);
+    
+}
+
+#display-details{
+    width: 900px;
+    height: 100px;
+    background-color: #f8f4f4;
+    border-radius: 30px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    font-weight: bolder;
+    font-size: 45px;
+}
+
+#dis-options{
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 2px;
+    text-align: center;
+    font-size: 30px;
+} */
+
+
+
+
+
+
+/* #security-holder{
+    left: 16%;
+    position: relative;
+    transform: translate(-50%,);
+}
+
+#security-details{
+    width: 900px;
+    height: 100px;
+    background-color: #f8f4f4;
+    border-radius: 30px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    font-weight: bolder;
+    font-size: 45px;
+}
+
+#sec-input{
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#sec-btn{
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#sec-check{
+    width: 40px;
+    height: 40px;
+} */
+
+
+
+/* #accounts-holder{
+    left: 16%;
+    position: relative;
+    transform: translate(-50%,);
+}
+
+#accounts-details{
+    width: 900px;
+    height: 100px;
+    background-color: #f8f4f4;
+    border-radius: 30px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    font-weight: bolder;
+    font-size: 45px;
+}
+
+#accs-input{
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#accs-option{
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 2px;
+    text-align: center;
+    font-size: 30px;
+} */
+
+
+
+
+
+
+/* #profile-holder{
+    left: 16%;
+    position: relative;
+    transform: translate(-50%,);
+    
+}
+
+#profile-details{
+    width: 900px;
+    height: 100px;
+    background-color: #f8f4f4;
+    border-radius: 30px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    font-weight: bolder;
+    font-size: 45px;
+}
+
+#profile-input{
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#profile-option{
+    width: 200px;
+    height: 60px;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 2px;
+    text-align: center;
+    font-size: 30px;
+} */
+
+
+
+
+
+
+/* #chat-holder{
+    left: 16%;
+    position: relative;
+    transform: translate(-50%,);
+
+}
+
+#chat-details{
+    width: 900px;
+    height: 100px;
+    background-color: #f8f4f4;
+    border-radius: 30px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    font-weight: bolder;
+    font-size: 45px;
+}
+
+#chat-input{
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#chat-option{
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 2px;
+    text-align: center;
+    font-size: 30px;
+} */
+

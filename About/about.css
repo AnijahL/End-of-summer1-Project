@@ -85,7 +85,7 @@ body{
 
 #main-info{
     width: 1300px;
-    height: 1000px;  
+    height: 1900px;  
     background-color: #054087;
     border-radius: 55px;
     margin-left: 240px;
@@ -97,36 +97,69 @@ body{
     flex-direction: column;
 }
 
-.main-holder{
+#main-holder{
     text-align: center;
 }
 
-.main-title{
-    width: 900px;
-    height: 30px;
+#main-title{
+    width: 440px;
+    height: 80px;
     border: 2px solid black;
+    text-align: center;
+    font-size: 45px;
+    color: #f4f3f3;
+    border-radius: 35px;
     display: flex;
     align-items: center;
-    text-align: center;
+    justify-content: center;
 }
 
-.main-text{
-    width: 900px;
-    height: 100px;
+#main-title1st{
+    width: 440px;
+    height: 80px;
     border: 2px solid black;
+    text-align: center;
+    font-size: 45px;
+    color: #f4f3f3;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main-text1st{
+    width: 1100px;
+    height: 360px;
+    border: 2px solid black;
+    text-align: center;
     display: flex;
     align-items: center; 
+    font-size: 38px;
+    color: #f4f3f3;
+    border-radius: 35px;
+}
+
+#main-text{
+    width: 1100px;
+    height: 240px;
+    border: 2px solid black;
+    text-align: center;
+    display: flex;
+    align-items: center; 
+    font-size: 38px;
+    color: #f4f3f3;
+    border-radius: 35px;
 }
 
 #mission{
     width: 1300px;
-    height: 290px;
+    height: 340px;
     background-color: #054087;
     border-radius: 35px;
     left: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
-    margin-top: 203px;
+    margin-top: 240px;
 }
 
 #mission-text{
@@ -135,14 +168,33 @@ body{
     color: #f4f3f3;
     margin-top: 33px;
 }
+#mission-title{
+    font-size: 45px;
+    text-align: center;
+    color: #f4f3f3;
+    margin-top: 28px;
+}
 
 #vision{
     width: 1300px;
-    height: 320px;
+    height: 450px;
     background-color: #054087;
     border-radius: 35px;
     left: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
-    margin-top: 568px;
+    margin-top: 720px;
+}
+#vision-title{
+    font-size: 45px;
+    text-align: center;
+    color: #f4f3f3;
+    margin-top: 28px;
+}
+
+#vision-text{
+    font-size: 45px;
+    text-align: center;
+    color: #f4f3f3;
+    margin-top: 28px;
 }
