@@ -28,16 +28,16 @@
 <div id="line"></div>
 <div id="settings-container">
     <div id="settings-nav">
-        <button class="settings-option" id="spaceing">Account</button>
-        <button class="settings-option">Personalization</button>
-        <button class="settings-option">General</button>
-        <button class="settings-option">Notifications</button>
-        <button class="settings-option">Appearance</button>
-        <button class="settings-option">Display</button>
-        <button class="settings-option">Security</button>
-        <button class="settings-option">Accounts</button>
-        <button class="settings-option">Profile</button>
-        <button class="settings-option">Chat</button>
+        <button class="settings-option" id="spaceing" onclick="handle_click('account')">Account</button>
+        <button class="settings-option" onClick="handle_click('personalization')">Personalization</button>
+        <button class="settings-option" onClick="handle_click('general')">General</button>
+        <button class="settings-option" onClick="handle_click('notifications')">Notifications</button>
+        <button class="settings-option" onClick="handle_click('appearance')">Appearance</button>
+        <button class="settings-option" onClick="handle_click('display')">Display</button>
+        <button class="settings-option" onClick="handle_click('security')">Security</button>
+        <button class="settings-option" onClick="handle_click('accounts')">Accounts</button>
+        <button class="settings-option" onClick="handle_click('profile')">Profile</button>
+        <button class="settings-option" onClick="handle_click('chat')">Chat</button>
     </div>
     
     <!-- <div class="settings-info">
@@ -49,336 +49,291 @@
 
     <div id="settings-info">
 
-        
-        <!-- <h1 id="title">Account</h1>
-        <div id="acc-holder">
-            <div id="account-details">
-                <label for="username">Username:</label>
-                <input type="text" id="acc-input" name="username">
-            </div>
-            <div id="account-details">
-                <label for="email">Email:</label>
-                <input type="email" id="acc-input" name="email">
-            </div>
-            <div id="account-details">
-                <label for="password">Password:</label>
-                <input type="password" id="acc-input" name="password">   
-            </div>
-            <div id="account-details">
-                <label for="location">Location:</label>
-                <input type="text" id="acc-input" name="location">   
-            </div>
-            <div id="account-details">
-                <label for="account-logout">Logout:</label>
-                <button id="acc-input">
-                    <a href="../index.html" style="text-decoration: none; color: white;">Logout</a>
-                </button>
-            </div>
-        </div>
-    </div> -->
-
-
-
-
-
-    <!-- <div id="Personalization-info">
-        <h1 id="title">Personalization</h1>
-        <div id="per-holder">
-            <div id="personalization-details">
-                <label for="theme">Theme:</label>
-                <select id="per-option" name="theme">
-                    <option value="light" id="per-input">Dark</option>
-                    <option value="dark" id="per-input">Light</option>
-                </select>
-            </div>
-            <div id="personalization-details">
-                <label for="language">Language:</label>
-                <select id="per-option" name="language">
-                    <option value="english" id="per-input">English</option>
-                    <option value="spanish" id="per-input">Spanish</option>
-                    <option value="french" id="per-input">French</option>
-                </select>
+        <div id="acc-container">
+            <h1 id="title">Account</h1>
+            <div id="acc-holder">
+                <div id="account-details">
+                    <label for="username">Username:</label>
+                    <input type="text" id="acc-input" name="username">
+                </div>
+                <div id="account-details">
+                    <label for="email">Email:</label>
+                    <input type="email" id="acc-input" name="email">
+                </div>
+                <div id="account-details">
+                    <label for="password">Password:</label>
+                    <input type="password" id="acc-input" name="password">   
+                </div>
+                <div id="account-details">
+                    <label for="location">Location:</label>
+                    <input type="text" id="acc-input" name="location">   
+                </div>
+                <div id="account-details">
+                    <label for="account-logout">Logout:</label>
+                    <button id="acc-input">
+                        <a href="../index.html" style="text-decoration: none; color: white;">Logout</a>
+                    </button>
+                </div>
             </div>
         </div>
-    </div> -->
 
-
-
-
-
-    <!-- <div id="General-info">
-        <h1 id="title">General</h1>
-        <div id="general-holder">
-            <div id="general-details">
-                <label for="timezone">Timezone:</label>
-                <select id="gen-option" name="timezone">
-                    <option value="gmt-12">GMT-12</option>
-                    <option value="gmt-11">GMT-11</option>
-                    <option value="gmt-10">GMT-10</option>
-                </select>
-            </div>
-            <div id="general-details">
-                <label for="date-format">Date Format:</label>
-                <select id="gen-option" name="date-format">
-                    <option value="mm-dd-yyyy">MM-DD-YYYY</option>
-                    <option value="dd-mm-yyyy">DD-MM-YYYY</option>
-                    <option value="yyyy-mm-dd">YYYY-MM-DD</option>
-                </select>
-            </div>
-            <div id="general-details">
-                <label for="time-format">Time Format:</label>
-                <select id="gen-option" name="time-format">
-                    <option value="12-hour">12-Hour</option>
-                    <option value="24-hour">24-Hour</option>
-                </select>
+        <div id="Personalization-info">
+            <h1 id="title">Personalization</h1>
+            <div id="per-holder">
+                <div id="personalization-details">
+                    <label for="theme">Theme:</label>
+                    <select id="per-option" name="theme">
+                        <option value="light" id="per-input">Dark</option>
+                        <option value="dark" id="per-input">Light</option>
+                    </select>
+                </div>
+                <div id="personalization-details">
+                    <label for="language">Language:</label>
+                    <select id="per-option" name="language">
+                        <option value="english" id="per-input">English</option>
+                        <option value="spanish" id="per-input">Spanish</option>
+                        <option value="french" id="per-input">French</option>
+                    </select>
+                </div>
             </div>
         </div>
-    </div> -->
 
-
-
-
-
-
-    <!-- <div id="Notifications-info">
-        <h1 id="title">Notifications</h1>
-        <div id="notif-holder">
-            <div id="notifications-details">
-                <label for="email-notifications">Email Notifications:</label>
-                <input type="checkbox" id="notif-input" name="email-notifications">
+        <div id="General-info">
+            <h1 id="title">General</h1>
+            <div id="general-holder">
+                <div id="general-details">
+                    <label for="timezone">Timezone:</label>
+                    <select id="gen-option" name="timezone">
+                        <option value="gmt-12">GMT-12</option>
+                        <option value="gmt-11">GMT-11</option>
+                        <option value="gmt-10">GMT-10</option>
+                    </select>
+                </div>
+                <div id="general-details">
+                    <label for="date-format">Date Format:</label>
+                    <select id="gen-option" name="date-format">
+                        <option value="mm-dd-yyyy">MM-DD-YYYY</option>
+                        <option value="dd-mm-yyyy">DD-MM-YYYY</option>
+                        <option value="yyyy-mm-dd">YYYY-MM-DD</option>
+                    </select>
+                </div>
+                <div id="general-details">
+                    <label for="time-format">Time Format:</label>
+                    <select id="gen-option" name="time-format">
+                        <option value="12-hour">12-Hour</option>
+                        <option value="24-hour">24-Hour</option>
+                    </select>
+                </div>
             </div>
-            <div id="notifications-details">
-                <label for="push-notifications">Push Notifications:</label>
-                <input type="checkbox" id="notif-input" name="push-notifications">
+        </div> 
+
+        <div id="Notifications-info">
+            <h1 id="title">Notifications</h1>
+            <div id="notif-holder">
+                <div id="notifications-details">
+                    <label for="email-notifications">Email Notifications:</label>
+                    <input type="checkbox" id="notif-input" name="email-notifications">
+                </div>
+                <div id="notifications-details">
+                    <label for="push-notifications">Push Notifications:</label>
+                    <input type="checkbox" id="notif-input" name="push-notifications">
+                </div>
+                <div id="notifications-details">
+                    <label for="sms-notifications">SMS Notifications:</label>
+                    <input type="checkbox" id="notif-input" name="sms-notifications">
+                </div>
+            </div>  
+        </div>
+
+        <div id="Appearance-info">
+            <h1 id="title">Appearance</h1>
+            <div id="appearance-holder">
+                <div id="appearance-details">
+                    <label for="color-scheme">Color Scheme:</label>
+                    <select id="app-option" name="color-scheme">
+                        <option value="light">Light</option>
+                        <option value="dark">Dark</option>
+                        <option value="custom">Custom</option>
+                    </select>
+                </div>
+                <div id="appearance-details">
+                    <label for="font-style">Font Style:</label>
+                    <select id="app-option" name="font-style">
+                        <option value="arial">Arial</option>
+                        <option value="verdana">Verdana</option>
+                        <option value="times-new-roman">Times New Roman</option>
+                    </select>   
+                </div>
+                <div id="appearance-details">
+                    <label for="font-size">Font Size:</label>
+                    <select id="app-option" name="font-size">
+                        <option value="small">Medium</option>
+                        <option value="medium">Small</option>
+                        <option value="large">Large</option>
+                    </select>
+                </div>
             </div>
-            <div id="notifications-details">
-                <label for="sms-notifications">SMS Notifications:</label>
-                <input type="checkbox" id="notif-input" name="sms-notifications">
-            </div>
-        </div>  
-    </div> -->
+        </div>
 
-
-
-
-
-
-
-    <!-- <div id="Appearance-info">
-        <h1 id="title">Appearance</h1>
-        <div id="appearance-holder">
-            <div id="appearance-details">
-                <label for="color-scheme">Color Scheme:</label>
-                <select id="app-option" name="color-scheme">
-                    <option value="light">Light</option>
-                    <option value="dark">Dark</option>
-                    <option value="custom">Custom</option>
+        <div id="Display-info">
+            <h1 id="title">Display</h1>
+            <div id="display-holder">
+                <div id="display-details">
+                    <label for="brightness">Brightness:</label>
+                    <input type="range" id="dis-options" name="brightness" min="0" max="100">
+                </div>
+                <div id="display-details">
+                    <label for="resolution">Resolution:</label>
+                <select id="dis-options" name="resolution">
+                    <option value="1920x1080">1920x1080</option>
+                    <option value="1366x768">1366x768</option>
+                    <option value="1280x720">1280x720</option>
                 </select>
             </div>
-            <div id="appearance-details">
-                <label for="font-style">Font Style:</label>
-                <select id="app-option" name="font-style">
-                    <option value="arial">Arial</option>
-                    <option value="verdana">Verdana</option>
-                    <option value="times-new-roman">Times New Roman</option>
+            <div id="display-details">
+                <label for="refresh-rate">Refresh Rate:</label>
+                <select id="dis-options" name="refresh-rate">
+                    <option value="60hz">60Hz</option>
+                    <option value="75hz">75Hz</option>
+                    <option value="120hz">120Hz</option>
+                </select>
+            </div>
+            <div id="display-details">
+                <label for="scaling">Scaling:</label>
+                <select id="dis-options" name="scaling">
+                    <option value="100%">50%</option>
+                    <option value="100%">75%</option>
+                    <option value="100%">100%</option>
+                    <option value="125%">125%</option>
+                    <option value="150%">150%</option>
                 </select>   
             </div>
-            <div id="appearance-details">
-                <label for="font-size">Font Size:</label>
-                <select id="app-option" name="font-size">
-                    <option value="small">Medium</option>
-                    <option value="medium">Small</option>
-                    <option value="large">Large</option>
+        </div>
+
+        </div>
+
+        <div id="Security-info">
+            <h1 id="title">Security</h1>
+            <div id="security-holder">
+                <div id="security-details">
+                    <label for="security-question">Security Question:</label>
+                    <input type="text" id="sec-input" name="security-question">
+                </div>
+                <div id="security-details">
+                    <label for="security-answer">Security Answer:</label>
+                    <input type="text" id="sec-input" name="security-answer">
+                </div>
+                <div id="security-details">
+                    <label for="account-recovery">Account Recovery Email:</label>
+                    <input type="email" id="sec-input" name="account-recovery">
+                </div>
+                <div id="security-details">
+                    <label for="account-recovery-phone">Account Recovery Phone:</label>
+                    <input type="tel" id="sec-input" name="account-recovery-phone">
+                </div>  
+                <div id="security-details">
+                    <label for="login-activity">Login Activity:</label>
+                    <button id="sec-btn" >View</button>
+                </div>
+                <div id="security-details">
+                    <label for="two-factor-auth">Two-Factor Authentication:</label>
+                    <input type="checkbox" id="sec-check" name="two-factor-auth">
+                </div>
+                <div id="security-details">
+                    <label for="login-alerts">Login Alerts:</label>
+                    <input type="checkbox" id="sec-check" name="login-alerts">
+                </div>
+                <div id="security-details">
+                    <label for="password-change">Change Password:</label>
+                    <input type="password" id="sec-input" name="password-change">
+                </div>
+                <div id="security-details">
+                    <label for="confirm-password-change">Confirm Password:</label>
+                    <input type="password" id="sec-input" name="confirm-password-change">
+                </div>
+            </div>
+        </div>
+
+        <div id="Accounts-info">
+            <h1 id="title">Accounts</h1>
+            <div id="accounts-holder">
+                <div id="accounts-details">
+                    <label for="linked-accounts">Linked Accounts:</label>
+                    <input type="text" id="accs-input" name="linked-accounts">
+                </div>
+                <div id="accounts-details">
+                    <label for="account-privacy">Account Privacy:</label>
+                    <select id="accs-option" name="account-privacy">
+                        <option value="public">Public</option>
+                        <option value="private">Private</option>
+                        <option value="friends-only">Friends Only</option>
+                    </select>
+                </div>
+                <div id="accounts-details">
+                    <label for="account-deletion">Delete Account:</label>
+                    <button id="accs-option">Delete</button>
+                </div>
+            </div>
+        </div> 
+        
+        <div id="Profile-info">
+            <h1 id="title">Profile</h1>
+            <div id="profile-holder">
+                <div id="profile-details">
+                    <label for="profile-visibility">Profile Visibility:</label>
+                    <select id="profile-option" name="profile-visibility">
+                        <option value="public">Public</option>
+                        <option value="private">Private</option>
+                        <option value="friends-only">Friends Only</option>
                 </select>
+                </div>
+                <div id="profile-details">
+                    <label for="profile-picture">Profile Picture:</label>
+                    <input type="file" id="profile-input" name="profile-picture">
+                </div>
+                <div id="profile-details">
+                    <label for="bio">Bio:</label>
+                    <textarea id="profile-input" name="bio"></textarea>   
+                </div>
+                <div id="profile-details">
+                    <label for="location">Location:</label>
+                    <input type="text" id="profile-input" name="location">   
+                </div>
+            </div>
+        </div> 
+
+        <div id="Chat-info">
+            <h1 id="title">Chat</h1>
+            <div id="chat-holder">
+                <div id="chat-details">
+                    <label for="chat-visibility">Chat Visibility:</label>
+                    <select id="chat-option" name="chat-visibility">
+                        <option value="public">Public</option>
+                        <option value="private">Private</option>
+                        <option value="friends-only">Friends Only</option>
+                    </select>
+                </div>
+                <div id="chat-details">
+                    <label for="chat-notifications">Chat Notifications:</label>
+                    <input type="checkbox" id="chat-input" name="chat-notifications">
+                </div>
+                <div id="chat-details">
+                    <label for="blocked-users">Blocked Users:</label>
+                    <select id="chat-option" name="blocked-users">
+                        <option value="option1">Blocked User 1</option>
+                        <option value="option2">Blocked User 2</option>
+                        <option value="option3">Blocked User 3</option>
+                    </select>
+                </div>
+                <div id="chat-details">
+                    <label for="chat-history">Chat History:</label>
+                    <button id="chat-option">Clear</button>
+                </div>
             </div>
         </div>
-    </div> -->
 
 
-
-
-
-
-
-
-    <!-- <div id="Display-info">
-        <h1 id="title">Display</h1>
-        <div id="display-holder">
-            <div id="display-details">
-                <label for="brightness">Brightness:</label>
-                <input type="range" id="dis-options" name="brightness" min="0" max="100">
-            </div>
-            <div id="display-details">
-                <label for="resolution">Resolution:</label>
-            <select id="dis-options" name="resolution">
-                <option value="1920x1080">1920x1080</option>
-                <option value="1366x768">1366x768</option>
-                <option value="1280x720">1280x720</option>
-            </select>
-        </div>
-        <div id="display-details">
-            <label for="refresh-rate">Refresh Rate:</label>
-            <select id="dis-options" name="refresh-rate">
-                <option value="60hz">60Hz</option>
-                <option value="75hz">75Hz</option>
-                <option value="120hz">120Hz</option>
-            </select>
-        </div>
-        <div id="display-details">
-            <label for="scaling">Scaling:</label>
-            <select id="dis-options" name="scaling">
-                <option value="100%">100%</option>
-                <option value="125%">125%</option>
-                <option value="150%">150%</option>
-            </select>   
-        </div>
-    </div> -->
-
-
-
-
-
-
-
-    <!-- <div id="Security-info">
-        <h1 id="title">Security</h1>
-        <div id="security-holder">
-            <div id="security-details">
-                <label for="security-question">Security Question:</label>
-                <input type="text" id="sec-input" name="security-question">
-            </div>
-            <div id="security-details">
-                <label for="security-answer">Security Answer:</label>
-                <input type="text" id="sec-input" name="security-answer">
-            </div>
-            <div id="security-details">
-                <label for="account-recovery">Account Recovery Email:</label>
-                <input type="email" id="sec-input" name="account-recovery">
-            </div>
-            <div id="security-details">
-                <label for="account-recovery-phone">Account Recovery Phone:</label>
-                <input type="tel" id="sec-input" name="account-recovery-phone">
-            </div>  
-            <div id="security-details">
-                <label for="login-activity">Login Activity:</label>
-                <button id="sec-btn" >View</button>
-            </div>
-            <div id="security-details">
-                <label for="two-factor-auth">Two-Factor Authentication:</label>
-                <input type="checkbox" id="sec-check" name="two-factor-auth">
-            </div>
-            <div id="security-details">
-                <label for="login-alerts">Login Alerts:</label>
-                <input type="checkbox" id="sec-check" name="login-alerts">
-            </div>
-            <div id="security-details">
-                <label for="password-change">Change Password:</label>
-                <input type="password" id="sec-input" name="password-change">
-            </div>
-            <div id="security-details">
-                <label for="confirm-password-change">Confirm Password:</label>
-                <input type="password" id="sec-input" name="confirm-password-change">
-            </div>
-        </div>
-    </div> -->
-
-
-
-
-
-    
-
-    <!-- <div id="Accounts-info">
-        <h1 id="title">Accounts</h1>
-        <div id="accounts-holder">
-            <div id="accounts-details">
-                <label for="linked-accounts">Linked Accounts:</label>
-                <input type="text" id="accs-input" name="linked-accounts">
-            </div>
-            <div id="accounts-details">
-                <label for="account-privacy">Account Privacy:</label>
-                <select id="accs-option" name="account-privacy">
-                    <option value="public">Public</option>
-                    <option value="private">Private</option>
-                    <option value="friends-only">Friends Only</option>
-                </select>
-            </div>
-            <div id="accounts-details">
-                <label for="account-deletion">Delete Account:</label>
-                <button id="accs-option">Delete</button>
-            </div>
-        </div>
-    </div> -->
-
-
-
-
-
-
-    <!-- <div id="Profile-info">
-        <h1 id="title">Profile</h1>
-        <div id="profile-holder">
-            <div id="profile-details">
-                <label for="profile-visibility">Profile Visibility:</label>
-                <select id="profile-option" name="profile-visibility">
-                    <option value="public">Public</option>
-                    <option value="private">Private</option>
-                    <option value="friends-only">Friends Only</option>
-            </select>
-            </div>
-            <div id="profile-details">
-                <label for="profile-picture">Profile Picture:</label>
-                <input type="file" id="profile-input" name="profile-picture">
-            </div>
-            <div id="profile-details">
-                <label for="bio">Bio:</label>
-                <textarea id="profile-input" name="bio"></textarea>   
-            </div>
-            <div id="profile-details">
-                <label for="location">Location:</label>
-                <input type="text" id="profile-input" name="location">   
-            </div>
-        </div>
-    </div>   -->
-
-
-
-
-
-
-
-    <!-- <div id="Chat-info">
-        <h1 id="title">Chat</h1>
-        <div id="chat-holder">
-            <div id="chat-details">
-                <label for="chat-visibility">Chat Visibility:</label>
-                <select id="chat-option" name="chat-visibility">
-                    <option value="public">Public</option>
-                    <option value="private">Private</option>
-                    <option value="friends-only">Friends Only</option>
-                </select>
-            </div>
-            <div id="chat-details">
-                <label for="chat-notifications">Chat Notifications:</label>
-                <input type="checkbox" id="chat-input" name="chat-notifications">
-            </div>
-            <div id="chat-details">
-                <label for="blocked-users">Blocked Users:</label>
-                <select id="chat-option" name="blocked-users">
-                    <option value="option1">Blocked User 1</option>
-                    <option value="option2">Blocked User 2</option>
-                    <option value="option3">Blocked User 3</option>
-                </select>
-            </div>
-            <div id="chat-details">
-                <label for="chat-history">Chat History:</label>
-                <button id="chat-option">Clear</button>
-            </div>
-        </div>
-    </div> -->
-
-
-</div>
+    </div>
 
 
 

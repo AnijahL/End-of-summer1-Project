@@ -173,7 +173,7 @@ body{
     margin-top: -330px;
 }
 
-/* #acc-holder{
+#acc-holder{
     left: 16%;
     position: relative;
     transform: translate(-50%,);
@@ -200,10 +200,10 @@ body{
     border-radius: 20px;
     font-size: 20px;
     padding: 10px;
-} */
+}
 
 
-/* #personalization-details{
+#personalization-details{
     width: 900px;
     height: 100px;
     background-color: #f8f4f4;
@@ -239,9 +239,9 @@ body{
     font-size: 20px;
     padding: 2px;
     font-size: 30px;
-} */
+}
 
-/* #general-holder{
+#general-holder{
     left: 16%;
     position: relative;
     transform: translate(-50%,);
@@ -270,11 +270,13 @@ body{
     margin-top: 20px;
     font-weight: bolder;
     font-size: 45px;
-} */
+}
 
 
 
-/* #notifications-details{
+
+
+#notifications-details{
     width: 900px;
     height: 100px;
     background-color: #f8f4f4;
@@ -299,13 +301,13 @@ body{
 #notif-input{
     width: 40px;
     height: 40px;
-} */
+}
 
 
 
 
 
-/* #appearance-holder{
+#appearance-holder{
     left: 16%;
     position: relative;
     transform: translate(-50%,);
@@ -335,13 +337,13 @@ body{
     padding: 2px;
     text-align: center;
     font-size: 30px;
-} */
+}
 
 
 
 
 
-/* #display-holder{
+#display-holder{
     left: 16%;
     position: relative;
     transform: translate(-50%,);
@@ -371,14 +373,14 @@ body{
     padding: 2px;
     text-align: center;
     font-size: 30px;
-} */
+}
 
 
 
 
 
 
-/* #security-holder{
+#security-holder{
     left: 16%;
     position: relative;
     transform: translate(-50%,);
@@ -418,11 +420,11 @@ body{
 #sec-check{
     width: 40px;
     height: 40px;
-} */
+}
 
 
 
-/* #accounts-holder{
+#accounts-holder{
     left: 16%;
     position: relative;
     transform: translate(-50%,);
@@ -459,14 +461,14 @@ body{
     padding: 2px;
     text-align: center;
     font-size: 30px;
-} */
+}
 
 
 
 
 
 
-/* #profile-holder{
+#profile-holder{
     left: 16%;
     position: relative;
     transform: translate(-50%,);
@@ -504,14 +506,14 @@ body{
     padding: 2px;
     text-align: center;
     font-size: 30px;
-} */
+}
 
 
 
 
 
 
-/* #chat-holder{
+#chat-holder{
     left: 16%;
     position: relative;
     transform: translate(-50%,);
@@ -549,5 +551,5 @@ body{
     padding: 2px;
     text-align: center;
     font-size: 30px;
-} */
+}
 
