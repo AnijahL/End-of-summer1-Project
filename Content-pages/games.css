@@ -97,6 +97,7 @@ body{
     border-radius: 50px;
 }
 
+
 #like-holder{
     position: absolute;
     margin-top: 30px;
@@ -131,7 +132,7 @@ body{
     justify-content: center;
     border-radius: 60px;
     gap: 30px;
-
+    
 }
 
 #pfp-creator{
@@ -173,7 +174,7 @@ body{
     border-radius: 80px;
     padding: 15px;
     background-color: #e7e1e1;
-
+    
 }
 
 #options-img{
@@ -192,7 +193,7 @@ body{
     left: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
-    margin-top: 1500px;
+    margin-top: 1800px;
 }
 
 #description-text{
@@ -204,3 +205,33 @@ body{
     margin: 20px;
 }
 
+
+#game11-img{
+    width: 1100px;
+    height: 1100px;
+    border-radius: 40px;
+    padding: 30px;
+    background-color: #054087;
+}
+
+#game11{
+    width: 1100px;
+    height: 1100px;
+    border-radius: 50px;
+}
+
+#like11{
+    width: 550px;
+    height: 1100px;
+    opacity: 0.5;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+#dislike11{
+    width: 550px;
+    height: 1100px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    opacity: 0.5;
+}
