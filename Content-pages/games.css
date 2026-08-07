@@ -1,3 +1,5 @@
+/* nav */
+
 nav{
     display: flex; 
     text-align: center;
@@ -61,7 +63,9 @@ body{
     display: flex;
     justify-content: center;
 }
+/* nav end */
 
+/* title */
 
 #title{
     text-align: center;
@@ -82,75 +86,9 @@ body{
     position: absolute;
     transform: translate(-50%, -50%);
 }
+/* title end */
 
-#game-img{
-    width: 1100px;
-    height: 800px;
-    border-radius: 40px;
-    padding: 30px;
-    background-color: #054087;
-}
-
-#game1{
-    width: 1100px;
-    height: 800px;
-    border-radius: 50px;
-}
-
-
-#like-holder{
-    position: absolute;
-    margin-top: 30px;
-}
-
-#dislike1{
-    width: 550px;
-    height: 800px;
-    opacity: 0.5;
-    border-top-left-radius: 50px;
-    border-bottom-left-radius: 50px;
-}
-
-#like1{
-    width: 550px;
-    height: 800px;
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
-    opacity: 0.5;
-}
-
-#like2{
-    width: 550px;
-    height: 800px;
-    opacity: 0.5;
-    border-top-left-radius: 50px;
-    border-bottom-left-radius: 50px;
-}
-
-#dislike2{
-    width: 550px;
-    height: 800px;
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
-    opacity: 0.5;
-}
-
-#like3{
-    width: 550px;
-    height: 800px;
-    opacity: 0.5;
-    border-top-left-radius: 50px;
-    border-bottom-left-radius: 50px;
-}
-
-#dislike3{
-    width: 550px;
-    height: 800px;
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
-    opacity: 0.5;
-}
-
+/* main info same */
 
 #creator-page{
     width: 700px;
@@ -172,26 +110,13 @@ body{
     background-color: #054087;
 }
 
-#holder1{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    gap: 40px;
-}
-
-#holder2{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    gap: 40px;
-}
-
 #pf-name{
     color: #f4f3f3;
     text-align: center;
     font-size: 70px;
     
 }
+
 
 #options{
     width: 600px;
@@ -222,15 +147,14 @@ body{
     background-color: #e7e1e1;
 }
 
-#description{
-    background-color: #054087;
-    width: 1100px;
-    height: 230px;
-    border-radius: 20px;
-    left: 50%;
+.s-btn{
     position: absolute;
     transform: translate(-50%, -50%);
-    margin-top: 1500px;
+    left: 50%;
+    margin-top: 70px;
+    opacity: 0.8;
+    padding: 70px;
+    border-radius: 80px;
 }
 
 #description-text{
@@ -242,80 +166,38 @@ body{
     margin: 20px;
 }
 
-#description5{
-    background-color: #054087;
-    width: 1100px;
-    height: 400px;
-    border-radius: 20px;
-    left: 50%;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    margin-top: 1580px;
+#like-after {
+  width: 200px;
+  height: 200px;
 }
 
-#description9{
-    background-color: #054087;
-    width: 1100px;
-    height: 340px;
-    border-radius: 20px;
-    left: 50%;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    margin-top: 1550px;
-}
-
-#description10{
-    background-color: #054087;
-    width: 1100px;
-    height: 450px;
-    border-radius: 20px;
-    left: 50%;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    margin-top: 1610px;
+#dislike-after {
+  width: 200px;
+  height: 200px;
 }
 
 
-#game11-img{
-    width: 1100px;
-    height: 1100px;
-    border-radius: 40px;
-    padding: 30px;
-    background-color: #054087;
-}
+/* main info same end */
 
-#game11{
+
+
+#game1{
     width: 1100px;
-    height: 1100px;
+    height: 800px;
     border-radius: 50px;
 }
-
-#like11{
-    width: 550px;
-    height: 1100px;
-    opacity: 0.5;
-    border-top-left-radius: 50px;
-    border-bottom-left-radius: 50px;
+#holder2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
 }
 
-#dislike11{
-    width: 550px;
-    height: 1100px;
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
-    opacity: 0.5;
-}
 
-#description11{
-    background-color: #054087;
-    width: 1100px;
-    height: 380px;
-    border-radius: 20px;
-    left: 50%;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    margin-top: 1880px;
-}
+
+
+
+
 
 
 #content5{
@@ -325,18 +207,19 @@ body{
     margin-top: 680px;
 }
 
-#content6{
+/* #content6{
     position: absolute;
     transform: translate(-50%, -50%);
     left: 50%;
     margin-top: 680px;
-}
+} */
 
 #content7{
     position: absolute;
     transform: translate(-50%, -50%);
     left: 50%;
     margin-top: 680px;
+
 }
 
 
@@ -423,12 +306,814 @@ body{
   height: 100px;
 }
 
-#like-after {
-  width: 200px;
-  height: 200px;
+
+#content5 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    margin-top: 680px;
+    /* FIX: Force transitions directly on the IDs */
+    transition: transform 0.6s ease-in-out; 
 }
 
-#dislike-after {
-  width: 200px;
-  height: 200px;
+#content7 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    margin-top: 680px;
+    /* FIX: Force transitions directly on the IDs */
+    transition: transform 0.6s ease-in-out; 
 }
+
+/* If you uncomment #content6 later, add it here too */
+#content6 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    margin-top: 680px;
+    transition: transform 0.6s ease-in-out; 
+}
+
+
+
+
+/* content 1 */
+#holder1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+#game-img1{
+    width: 1100px;
+    height: 1000px;
+    border-radius: 40px;
+    padding: 30px;
+    background-color: #054087;
+    
+}
+#game1{
+    width: 1100px;
+    height: 1000px;
+    border-radius: 50px;
+}
+
+
+#like1{
+    width: 550px;
+    height: 1000px;
+    opacity: 0.5;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+#dislike1{
+    width: 550px;
+    height: 1000px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    opacity: 0.5;
+}
+
+#description1{
+    background-color: #054087;
+    width: 1100px;
+    height: 330px;
+    border-radius: 20px;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    margin-top: 1800px;
+}
+
+/* content 1 end */
+
+
+/* content 2 */
+#holder2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+#game-img2{
+    width: 1100px;
+    height: 1000px;
+    border-radius: 40px;
+    padding: 30px;
+    background-color: #054087;
+    
+}
+#game2{
+    width: 1100px;
+    height: 1000px;
+    border-radius: 50px;
+}
+
+
+#like2{
+    width: 550px;
+    height: 1000px;
+    opacity: 0.5;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+#dislike2{
+    width: 550px;
+    height: 1000px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    opacity: 0.5;
+}
+
+#description2{
+    background-color: #054087;
+    width: 1100px;
+    height: 330px;
+    border-radius: 20px;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    margin-top: 1800px;
+}
+
+/* content 2 end */
+
+
+/* content 3 */
+#holder3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+#game-img3{
+    width: 1100px;
+    height: 1000px;
+    border-radius: 40px;
+    padding: 30px;
+    background-color: #054087;
+    
+}
+#game3{
+    width: 1100px;
+    height: 1000px;
+    border-radius: 50px;
+}
+
+
+#like3{
+    width: 550px;
+    height: 1000px;
+    opacity: 0.5;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+#dislike3{
+    width: 550px;
+    height: 1000px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    opacity: 0.5;
+}
+
+#description3{
+    background-color: #054087;
+    width: 1100px;
+    height: 330px;
+    border-radius: 20px;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    margin-top: 1800px;
+}
+
+/* content 3 end */
+
+
+/* content 4 */
+#holder4{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+#game-img4{
+    width: 1100px;
+    height: 1000px;
+    border-radius: 40px;
+    padding: 30px;
+    background-color: #054087;
+    
+}
+#game4{
+    width: 1100px;
+    height: 1000px;
+    border-radius: 50px;
+}
+
+
+#like4{
+    width: 550px;
+    height: 1000px;
+    opacity: 0.5;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+#dislike4{
+    width: 550px;
+    height: 1000px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    opacity: 0.5;
+}
+
+#description4{
+    background-color: #054087;
+    width: 1100px;
+    height: 330px;
+    border-radius: 20px;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    margin-top: 1800px;
+}
+
+/* content 4 end */
+
+
+/* content 4 */
+#holder4{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+#game-img4{
+    width: 1100px;
+    height: 1000px;
+    border-radius: 40px;
+    padding: 30px;
+    background-color: #054087;
+    
+}
+#game4{
+    width: 1100px;
+    height: 1000px;
+    border-radius: 50px;
+}
+
+
+#like4{
+    width: 550px;
+    height: 1000px;
+    opacity: 0.5;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+#dislike4{
+    width: 550px;
+    height: 1000px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    opacity: 0.5;
+}
+
+#description4{
+    background-color: #054087;
+    width: 1100px;
+    height: 330px;
+    border-radius: 20px;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    margin-top: 1800px;
+}
+
+/* content 14 end */
+
+
+/* content 5 */
+#holder5{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+#game-img5{
+    width: 1100px;
+    height: 1000px;
+    border-radius: 40px;
+    padding: 30px;
+    background-color: #054087;
+    
+}
+#game5{
+    width: 1100px;
+    height: 1000px;
+    border-radius: 50px;
+}
+
+
+#like5{
+    width: 550px;
+    height: 1000px;
+    opacity: 0.5;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+#dislike5{
+    width: 550px;
+    height: 1000px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    opacity: 0.5;
+}
+
+#description5{
+    background-color: #054087;
+    width: 1100px;
+    height: 330px;
+    border-radius: 20px;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    margin-top: 1800px;
+}
+
+/* content 5 end */
+
+
+/* content 6 */
+#holder6{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+#game-img6{
+    width: 1100px;
+    height: 1000px;
+    border-radius: 40px;
+    padding: 30px;
+    background-color: #054087;
+    
+}
+#game6{
+    width: 1100px;
+    height: 1000px;
+    border-radius: 50px;
+}
+
+
+#like6{
+    width: 550px;
+    height: 1000px;
+    opacity: 0.5;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+#dislike6{
+    width: 550px;
+    height: 1000px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    opacity: 0.5;
+}
+
+#description6{
+    background-color: #054087;
+    width: 1100px;
+    height: 330px;
+    border-radius: 20px;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    margin-top: 1800px;
+}
+
+/* content 6 end */
+
+
+/* content 7 */
+#holder7{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+#game-img7{
+    width: 1100px;
+    height: 1000px;
+    border-radius: 40px;
+    padding: 30px;
+    background-color: #054087;
+    
+}
+#game7{
+    width: 1100px;
+    height: 1000px;
+    border-radius: 50px;
+}
+
+
+#like7{
+    width: 550px;
+    height: 1000px;
+    opacity: 0.5;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+#dislike7{
+    width: 550px;
+    height: 1000px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    opacity: 0.5;
+}
+
+#description7{
+    background-color: #054087;
+    width: 1100px;
+    height: 330px;
+    border-radius: 20px;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    margin-top: 1800px;
+}
+
+/* content 7 end */
+
+/* content 8 */
+#holder8{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+#game-img8{
+    width: 1100px;
+    height: 1200px;
+    border-radius: 40px;
+    padding: 30px;
+    background-color: #054087;
+    
+}
+#game8{
+    width: 1100px;
+    height: 1200px;
+    border-radius: 50px;
+}
+
+
+#like8{
+    width: 550px;
+    height: 1200px;
+    opacity: 0.5;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+#dislike8{
+    width: 550px;
+    height: 1200px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    opacity: 0.5;
+}
+
+#description8{
+    background-color: #054087;
+    width: 1100px;
+    height: 370px;
+    border-radius: 20px;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    margin-top: 1950px;
+}
+
+/* content 8 end */
+
+
+/* content 9 */
+#holder9{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+#game-img9{
+    width: 1100px;
+    height: 800px;
+    border-radius: 40px;
+    padding: 30px;
+    background-color: #054087;
+    
+}
+#game9{
+    width: 1100px;
+    height: 800px;
+    border-radius: 50px;
+}
+
+#like9{
+    width: 550px;
+    height: 800px;
+    opacity: 0.5;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+#dislike9{
+    width: 550px;
+    height: 800px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    opacity: 0.5;
+}
+
+#description9{
+    background-color: #054087;
+    width: 1100px;
+    height: 330px;
+    border-radius: 20px;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    margin-top: 1540px;
+}
+
+/* content 9 end */
+
+
+/* content 10 */
+#holder10{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+#game-img10{
+    width: 1100px;
+    height: 800px;
+    border-radius: 40px;
+    padding: 30px;
+    background-color: #054087;
+    
+}
+#game10{
+    width: 1100px;
+    height: 800px;
+    border-radius: 50px;
+}
+
+#like10{
+    width: 550px;
+    height: 800px;
+    opacity: 0.5;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+#dislike10{
+    width: 550px;
+    height: 800px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    opacity: 0.5;
+}
+
+#description10{
+    background-color: #054087;
+    width: 1100px;
+    height: 440px;
+    border-radius: 20px;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    margin-top: 1590px;
+}
+
+/* content 10 end */
+
+
+/* content 11 */
+#holder11{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+#game-img11{
+    width: 1100px;
+    height: 1000px;
+    border-radius: 40px;
+    padding: 30px;
+    background-color: #054087;
+    
+}
+#game11{
+    width: 1100px;
+    height: 1000px;
+    border-radius: 50px;
+}
+#like-holder{
+    position: absolute;
+    margin-top: 29px;
+}
+
+#like11{
+    width: 550px;
+    height: 1000px;
+    opacity: 0.5;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+#dislike11{
+    width: 550px;
+    height: 1000px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    opacity: 0.5;
+}
+
+#description11{
+    background-color: #054087;
+    width: 1100px;
+    height: 375px;
+    border-radius: 20px;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    margin-top: 1800px;
+}
+
+/* content 11 end */
+
+
+/* content 12 */
+#holder12{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+#game-img12{
+    width: 1100px;
+    height: 1000px;
+    border-radius: 40px;
+    padding: 30px;
+    background-color: #054087;
+    
+}
+#game12{
+    width: 1100px;
+    height: 1000px;
+    border-radius: 50px;
+}
+
+#like-holder{
+    position: absolute;
+    margin-top: 29px;
+}
+
+#like12{
+    width: 550px;
+    height: 1000px;
+    opacity: 0.5;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+#dislike12{
+    width: 550px;
+    height: 1000px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    opacity: 0.5;
+}
+
+#description12{
+    background-color: #054087;
+    width: 1100px;
+    height: 330px;
+    border-radius: 20px;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    margin-top: 1800px;
+}
+
+/* content 12 end */
+
+
+/* content 13 */
+#holder13{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+#game-img13{
+    width: 1100px;
+    height: 1000px;
+    border-radius: 40px;
+    padding: 30px;
+    background-color: #054087;
+    
+}
+#game13{
+    width: 1100px;
+    height: 1000px;
+    border-radius: 50px;
+}
+
+#like13{
+    width: 550px;
+    height: 1000px;
+    opacity: 0.5;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+#dislike13{
+    width: 550px;
+    height: 1000px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    opacity: 0.5;
+}
+
+#description13{
+    background-color: #054087;
+    width: 1100px;
+    height: 330px;
+    border-radius: 20px;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    margin-top: 1800px;
+}
+
+/* content 13 end */
+
+
+/* content 14 */
+#holder14{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+#game-img14{
+    width: 1100px;
+    height: 1000px;
+    border-radius: 40px;
+    padding: 30px;
+    background-color: #054087;
+    
+}
+#game14{
+    width: 1100px;
+    height: 1000px;
+    border-radius: 50px;
+}
+
+#like14{
+    width: 550px;
+    height: 1000px;
+    opacity: 0.5;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+#dislike14{
+    width: 550px;
+    height: 1000px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    opacity: 0.5;
+}
+
+#description14{
+    background-color: #054087;
+    width: 1100px;
+    height: 330px;
+    border-radius: 20px;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    margin-top: 1800px;
+}
+
+/* content 14 end */
